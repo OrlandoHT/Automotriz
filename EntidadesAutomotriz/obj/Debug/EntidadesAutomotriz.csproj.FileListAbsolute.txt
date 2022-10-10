@@ -1,0 +1,12 @@
+C:\Users\orla8\Desktop\Automotriz\EntidadesAutomotriz\bin\Debug\EntidadesAutomotriz.dll
+C:\Users\orla8\Desktop\Automotriz\EntidadesAutomotriz\bin\Debug\EntidadesAutomotriz.pdb
+C:\Users\orla8\Desktop\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.csproj.AssemblyReference.cache
+C:\Users\orla8\Desktop\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.csproj.CoreCompileInputs.cache
+C:\Users\orla8\Desktop\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.dll
+C:\Users\orla8\Desktop\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.pdb
+C:\Users\orla8\Desktop\P\Automotriz\EntidadesAutomotriz\bin\Debug\EntidadesAutomotriz.dll
+C:\Users\orla8\Desktop\P\Automotriz\EntidadesAutomotriz\bin\Debug\EntidadesAutomotriz.pdb
+C:\Users\orla8\Desktop\P\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.csproj.AssemblyReference.cache
+C:\Users\orla8\Desktop\P\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.csproj.CoreCompileInputs.cache
+C:\Users\orla8\Desktop\P\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.dll
+C:\Users\orla8\Desktop\P\Automotriz\EntidadesAutomotriz\obj\Debug\EntidadesAutomotriz.pdb
