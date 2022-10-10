@@ -14,7 +14,8 @@ namespace AccesoDatosAutomotriz
         }
         public void GuardarUsuarios(EntiUsuarios usuario)
         {
-            string consulta = string.Format("Insert into usuarios values({0},'{1}','{2}','{3}','{4}','{5}')", usuario.Idusuario, usuario.NombreCompleto, usuario.Fechanacimiento, usuario.Rfc, usuario.Correo, usuario.Password);
+            string consulta = string.Format("Insert into usuarios values({0},'{1}','{2}','{3}','{4}','{5}')",
+                usuario.Idusuario, usuario.NombreCompleto, usuario.Fechanacimiento, usuario.Rfc, usuario.Correo, usuario.Password);
             con.EjecutarConsulta(consulta);
         }
         public void EliminarUsuarios(int idUsuario)
@@ -25,7 +26,8 @@ namespace AccesoDatosAutomotriz
         public void ModificarUsuarios(EntiUsuarios usuario)
         {
 
-            string consulta = string.Format("update usuarios set nombrecompleto ='{0}', fechanacimiento='{1}', rfc='{2}', correo='{3}', password='{4}' where idusuario = {5}", usuario.NombreCompleto, usuario.Fechanacimiento, usuario.Rfc, usuario.Correo, usuario.Password, usuario.Idusuario);
+            string consulta = string.Format("update usuarios set nombrecompleto ='{0}', fechanacimiento='{1}', rfc='{2}', correo='{3}', password='{4}' where idusuario = {5}",
+                usuario.NombreCompleto, usuario.Fechanacimiento, usuario.Rfc, usuario.Correo, usuario.Password, usuario.Idusuario);
             con.EjecutarConsulta(consulta);
         }
         public List<EntiUsuarios> GetUsuarios(string dato)

@@ -14,7 +14,8 @@ namespace AccesoDatosAutomotriz
         }
         public void GuardarHerramientas(EntiHerramientas herramienta)
         {
-            string consulta = string.Format("Insert into herramientas values({0},'{1}','{2}','{3}','{4}')", herramienta.Codigoherramienta, herramienta.Nombre, herramienta.Medida, herramienta.Marca, herramienta.Descripcion);
+            string consulta = string.Format("Insert into herramientas values({0},'{1}','{2}','{3}','{4}')",
+                herramienta.Codigoherramienta, herramienta.Nombre, herramienta.Medida, herramienta.Marca, herramienta.Descripcion);
             con.EjecutarConsulta(consulta);
         }
         public void EliminarHerramientas(int codigoherramienta)
@@ -25,7 +26,8 @@ namespace AccesoDatosAutomotriz
         public void ModificarHerramientas(EntiHerramientas herramienta)
         {
 
-            string consulta = string.Format("update herramientas set nombre='{0}', medida='{1}', marca='{2}', descripcion='{3}' where codigoherramienta = {4}", herramienta.Nombre, herramienta.Medida, herramienta.Marca, herramienta.Descripcion, herramienta.Codigoherramienta);
+            string consulta = string.Format("update herramientas set nombre='{0}', medida='{1}', marca='{2}', descripcion='{3}' where codigoherramienta = {4}",
+                herramienta.Nombre, herramienta.Medida, herramienta.Marca, herramienta.Descripcion, herramienta.Codigoherramienta);
             con.EjecutarConsulta(consulta);
         }
         public List<EntiHerramientas> GetHerramientas(string dato)

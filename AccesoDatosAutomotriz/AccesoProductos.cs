@@ -14,7 +14,8 @@ namespace AccesoDatosAutomotriz
         }
         public void GuardarProductos(EntiProductos producto)
         {
-            string consulta = string.Format("Insert into productos values({0},'{1}','{2}','{3}')", producto.Codigobarras, producto.Nombre, producto.Descripcion, producto.Marca);
+            string consulta = string.Format("Insert into productos values({0},'{1}','{2}','{3}')",
+                producto.Codigobarras, producto.Nombre, producto.Descripcion, producto.Marca);
             con.EjecutarConsulta(consulta);
         }
         public void EliminarProductos(int codigobarras)
@@ -24,7 +25,8 @@ namespace AccesoDatosAutomotriz
         }
         public void ModificarProductos(EntiProductos productos)
         {
-            string consulta = string.Format("update productos set nombre='{0}', descripcion='{1}', marca='{2}' where codigobarras = {3}", productos.Nombre, productos.Descripcion, productos.Marca, productos.Codigobarras);
+            string consulta = string.Format("update productos set nombre='{0}', descripcion='{1}', marca='{2}' where codigobarras = {3}",
+                productos.Nombre, productos.Descripcion, productos.Marca, productos.Codigobarras);
             con.EjecutarConsulta(consulta);
         }
         public List<EntiProductos> GetProductos(string dato)
